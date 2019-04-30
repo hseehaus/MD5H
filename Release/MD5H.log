@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\HS\Documents\GIT\MD5H\md5file.h(256): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: Siehe Deklaration von "sprintf"
+C:\Users\HS\Documents\GIT\MD5H\md5file.h(274): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: Siehe Deklaration von "fopen"
+C:\Users\HS\Documents\GIT\MD5H\main.cpp(10): error C2440: "Initialisierung": "const char [14]" kann nicht in "char *" konvertiert werden
+  C:\Users\HS\Documents\GIT\MD5H\main.cpp(10): note: Bei der Konvertierung von Zeichenfolgenliteral geht der Konstantenqualifizierer verloren (siehe /Zc:strictStrings)
+C:\Users\HS\Documents\GIT\MD5H\main.cpp(10): error C2440: "Initialisierung": "const char [22]" kann nicht in "char *" konvertiert werden
+  C:\Users\HS\Documents\GIT\MD5H\main.cpp(10): note: Bei der Konvertierung von Zeichenfolgenliteral geht der Konstantenqualifizierer verloren (siehe /Zc:strictStrings)
+C:\Users\HS\Documents\GIT\MD5H\main.cpp(20): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: Siehe Deklaration von "strcpy"
+C:\Users\HS\Documents\GIT\MD5H\main.cpp(21): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: Siehe Deklaration von "strcat"
